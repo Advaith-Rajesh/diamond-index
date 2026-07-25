@@ -1,0 +1,14 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Frontend (regenerated via npm install / npm run build)
+frontend/node_modules/
+frontend/dist/
+
+# OS
+.DS_Store
+
+# Claude Code local-only settings (machine-specific, not meant to be shared)
+.claude/settings.local.json
